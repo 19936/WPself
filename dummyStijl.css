@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Mooi;
+    src: url(BebasNeue.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color : black;
+    height : 80px;
+    display : block;
+    width : 100%;
+    top : 0;
+    position : fixed;
+    box-shadow : -1px 18px 89px 0 rgba(0, 0, 0, 0.75);
+}
+
+
+nav ul {
+    margin-top: 10px;
+    list-style-type: none;
+    width: 800px;
+    float: right;
+    padding: 0 2em;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 2em;
+    font-family: Mooi;
+    font-size: 30px;
+}
+
+nav ul li a {
+    color: white;
+    line-height: 2em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+main {
+    padding-top: 80px;
+}
+
+#wordpress{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: white;
+    width: 300px;
+    float:left;
+    font-family: Mooi;
+}
+
+#divs h1{
+    font-family: Mooi;
+}
+
+#left {
+    position: fixed;
+    color: white;
+    height: 1000px;
+    width:15%;
+    float: left;
+    background-color: black;
+    -webkit-box-shadow: 14px 11px 89px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 11px 89px 0px rgba(0,0,0,0.75);
+box-shadow: 14px 11px 89px 0px rgba(0,0,0,0.75);   
+}
+
+#left h3, p{
+    margin-left: 40px;
+}
+
+#zoek {
+    margin-top: 100px;
+    margin-left: 24px;
+}
+
+#right {
+    width: 85%;
+    height: 1000px;
+    float: right;
+    background-color: aliceblue;
+}
+
+#bericht {
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+#bericht p{
+    padding-left: 0;
+    margin-left: 0;
+    width: 800px;
+    font-size: 16px;
+}
+#bericht b{
+    font-size: 20px;
+}
+
+#bericht2 {
+    padding-left: 200px;
+    padding-top: 100px;
+    background-color: aliceblue;
+    padding-bottom: 100px;
+}
+
+#bericht2 p{
+    padding-left: 0;
+    margin-left: 0;
+    width: 800px;
+    font-size: 16px;
+}
+#bericht2 b{
+    font-size: 20px;
+}
+
+#validatie {
+    color: white;
+    background-color: black;
+    height: 70px;
+    width: 85%;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+#validatie img{
+    margin-left: 30px;
+    margin-top: 15px;
+    
+}
+
+#validatie h2{
+    float: right;
+    margin-right: 30px;
+}
+
